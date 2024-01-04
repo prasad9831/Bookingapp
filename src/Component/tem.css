@@ -1,0 +1,106 @@
+.item-image{
+    object-fit: cover;
+    object-position:top right;
+    height: 100vh;
+}
+.item-parent{
+    position: relative;
+}
+.item-child{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.40388655462184875) 75%, rgba(0,0,0,1) 100%);
+}
+.item-poster-image{
+    border-radius: 15px;
+    height: 350px !important;
+}
+
+
+.cast{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.state{
+    font-weight: 400;
+}
+
+.cast-content-score {
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #c04f4f; /* Choose a color for the Content Score */
+    font-weight: bold;
+    margin-top: 5px; /* Adjust the margin as needed */
+}
+
+.detail{
+
+   padding: 50px 50px;
+ 
+   
+}
+
+.stat{
+    font-weight: 700;
+}
+
+.cast img{
+    border-radius: 50%;
+    height: 115px;
+    width: 100px;
+    object-fit: cover;
+    vertical-align: super;
+    object-position: top;
+}
+
+.castname{
+    text-align: center;
+    font-size: 14px !important;
+}
+.cast-head{
+    width: 75%;
+}
+.trailer-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: #00000067;
+    position: fixed;
+    top: -5%;
+}
+.trailer-head .close{
+    color: #fff;
+    background-color: transparent;
+    position: absolute;
+}
+
+.casting{
+    border-top: 2px rgba(138, 136, 136, 0.2) solid;
+    
+}
+
+.casting h4{
+    font-weight: 700;
+}
+
+.crewing{
+    border-top: 2px rgba(138, 136, 136, 0.2) solid;
+    border-bottom: 2px rgba(138, 136, 136, 0.2) solid;
+}
+
+.crewing h4{
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 426px) {
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+}

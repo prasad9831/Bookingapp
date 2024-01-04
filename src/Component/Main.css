@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#recom{
+    margin: 30px 80px;
+}
+
+#recom h4{
+    font-weight: 700;
+}
+
+#premi{
+    height: 680px;
+    width: 100%;
+    background-color: rgb(47, 47, 76);
+    
+}
+
+#prem{
+    display: flex;
+}
+
+#prem h3{
+    color:rgb(235, 235, 225);
+   letter-spacing: 5px;
+}
+
+.recom-img{
+    height: 60px !important;
+    width: 60px !important;
+}
+
+#prem p{
+    color: rgb(235, 235, 225);
+    font-weight: 100;
+}
+
+#premi h4{
+    color: rgb(235, 235, 225);
+}
+
+#premi h6{
+    color: rgb(235, 235, 225); 
+    font-weight: 400;
+}
+
+#premi2{
+    display: none;
+}
+
+#premcard{
+    height: 450px;
+    width: 230px;
+    border-radius: 10px;
+}
+
+#pcardin{
+    height: 370px;
+    width: 230px;
+    background-color:aquamarine;
+    border-radius: 10px;
+}
+
+
+
+#premcard h5{
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(235, 235, 225);
+    
+}
+
+#premcard p{
+    padding: 0px 12px;
+    line-height: 0px;
+    color: rgb(235, 235, 225);
+}
+
+.item .pos{
+    position: relative;
+    
+    
+}
+.pos img{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.item .abso{
+    position: absolute;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(1,0,18,0.48792016806722693) 27%, rgba(0,0,0,1) 100%);    height: 35%;
+    z-index: 9;
+    bottom: 0;
+    width: 92.8%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.recom1{
+    margin: 60px 80px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #prem p{
+        display: none !important;
+    }
+  }
+  

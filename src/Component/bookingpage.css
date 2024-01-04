@@ -1,0 +1,145 @@
+.date-day{
+    font-size: 10px;
+}
+.date-date{
+    font-size: 16px;
+    font-weight: 500;
+}
+.date-month{
+    font-size: 10px;
+}
+.selected-date{
+    background-color: rgb(206, 77, 22) !important;
+    color: #fff !important;
+}
+
+.page{
+    display: flex;
+}
+.proceed{
+    
+    height: 45px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    animation: moveInXAxis 2s ease-in-out infinite; /* Animation with a duration of 0.5 seconds and ease timing function */
+
+
+}
+@keyframes moveInXAxis {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateX(0px);
+
+    }
+}
+.seat-head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0000006c;
+    height: 100%;
+    width: 100%;
+}
+.seat{
+    height: 25px;
+    width: 25px !important;
+    border: 1px solid grey;
+    background: transparent;
+    border-radius: 7px;
+    text-align: center;
+    margin: 5px;
+    font-size: 13px;
+    transition: 0.2s;
+}
+.seatselected{
+    height: 25px;
+    width: 25px !important;
+    border: 1px solid green;
+    background: green;
+    border-radius: 7px;
+    text-align: center;
+    margin: 5px;
+    font-size: 13px;
+    color: #fff;
+
+        }
+.seat:hover {
+background: green;
+border: 1px solid green;
+color: #fff;
+}
+.seat-div{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.seat-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width:75%;
+    border-radius: 20px;
+}
+
+.payment{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0000006c;
+    height: 100%;
+    width: 100%;   
+}
+
+.payment-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width:50%;
+    border-radius: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+ 
+@media only screen and (max-width: 780px){
+    .page{
+        display: block;
+    }
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footerimg img{
+   display: block;
+    margin: auto;
+    transition: transform 0.3s ease;
+}
+
+.footerimg img:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    cursor: pointer;
+}
+
+.container-fluid {
+    
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-color: #ffffff; /* Use your preferred background color */
+    /* Add other styles for the container */
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+     
+}
+
+.iconinner{
+    display: flex;
+    justify-content:space-around;
+    color: #ffffff;
+}
+
+.iconinner p:hover {
+    transform: scale(1.2); /* Increase the size on hover */
+    cursor: pointer;
+}
+  
+.footer{
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.footerend{
+   text-align: center;
+   color: #a4a1a1;
+   font-size: 11px;
+}
+
+.footerend p:hover{
+    color: #ffffff;
+}
+
+.iconinner p {
+    transition: transform 0.3s ease; /* Add a smooth transition for the transform property */
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid{
+    --bs-gutter-x: 8.5rem;
+}
+
+#navl{
+    text-decoration: none;
+    color: black;
+}
+
+.bg-body-tertiary{
+    background-color: rgba(194, 191, 191, 0.133) !important;
+}
+
+.d-flex{
+    
+    justify-content: end;
+}
+
+.button{
+    border-color: rgba(230, 51, 51, 0.714);
+    color: rgba(230, 51, 51, 0.714);
+    transition: 0.7s;
+}
+
+.button:hover{
+    background-color:rgba(221, 18, 18, 0.699);
+    border-color: rgba(230, 51, 51, 0.714);
+}
+
+Form.Control{
+    size: 50px;
+}
+
+.box a{
+    text-decoration: none;
+}
+
+
+
+.w-50 {
+    width: 94%!important;
+}

@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.eve{
+    height: 100%;
+    margin: 0px 10px;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+.eve img{
+    border-radius: 10px;
+}
