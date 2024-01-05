@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Bookingapp/static/css/main.0fcce4a8.css",
+    "main.js": "/Bookingapp/static/js/main.c94014f3.js",
+    "static/js/787.c94dd5c8.chunk.js": "/Bookingapp/static/js/787.c94dd5c8.chunk.js",
+    "static/media/revicons.eot": "/Bookingapp/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Bookingapp/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Bookingapp/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/Bookingapp/index.html",
+    "main.0fcce4a8.css.map": "/Bookingapp/static/css/main.0fcce4a8.css.map",
+    "main.c94014f3.js.map": "/Bookingapp/static/js/main.c94014f3.js.map",
+    "787.c94dd5c8.chunk.js.map": "/Bookingapp/static/js/787.c94dd5c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fcce4a8.css",
+    "static/js/main.c94014f3.js"
+  ]
+}
